@@ -1,0 +1,103 @@
+##################################################
+			Reflections
+##################################################
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I saw the difference between the files wuen I used the diff (for Linux and Mac) or FC (File Controll)
+	
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    We can improvement issues about review and controll versions using some programms to that. For example
+    FC and diff commands
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    In my opinion the pros are: (a) easy manutenance; (b) easy to shared and communicate some changes
+    With respect the cons are: (a) large curve to learning (or a litle bit difficult for novice)
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This can very usefull one time that we can commit all existing changes on the project. So
+    this can improve the time spensive when we commit individual files using Google Docs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+   
+   I can access the history from existing file (or a project) using custon view. For example, 
+   there are some application such as, Wikipedia, GoogleDocs, DropBox and so on that provides
+   a link to see who and when a file was changed.
+
+What are the mains programs used to manage control system ?
+   
+  To manage control system there are - CVS (Concurrent Version System). The first one CVS that
+  was create is the SVN after it there were Mercury (because the quimical element Mercury) and 
+  the last one is the Git. Some programs contains some differences, in particular related to 
+  capactity to save-off; save-online; save-manually	
+
+How ofte do you must mantain the commits ?
+   
+  A good rule of thumb is to make one commit per logical change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+   In this canse, the stabilyt of the project when used the Git depends much more 
+   from programmed (i.e., user usage) than CVS. In the case of the Google Docs we
+   can delegated the strategy to the save for version control system of the Google.
+
+Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+   
+   It is very importate becuase the version control manage multiple dependencies together
+   existing on differents files.
+
+How can you use the commands git log and git diff to view the history of files?
+   
+   To use the git diff and git log we must clone the repository before. So, we need
+   git close <url> and after this command we can get the ids (the order is important) so
+   using git log we can find out which ids we can discovery using comments message. In the command
+   line we put all together in this form. 
+
+   git diff id_old (before the actual commit) id_new (current commit)
+   Using the simbol ninus (-) and plus (+) we can find which lines were added and which lines
+   were removed. In this case, we can count how many lines were removed and how many lines were 
+   deleted using this approach.
+
+git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+How might using version control make you more confident to make changes that could break something?
+
+   I can use the git checkout. The syntaxe usage is git checkout ID. So in this can we are
+   deateche from head. In this case we find the bug from previous ID with git diff command.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+##################################################
+			prompt commands line
+##################################################			
+
+pwd 			      # print working directory - shows what directory you are in
+ls  			      # list the files in this directory
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
