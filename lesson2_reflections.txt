@@ -1,0 +1,40 @@
+
+Questions
+=========
+1. What happens when you initialize a repository? Why do you need to do it?
+
+To initialize a new repository is necessary to use git init and git status command. 
+First of all, we need to create a directory (empty or not) and put some thinds inside that directory,
+second we use the git init to be created some hidden directories and files such as .git. Finally,
+we can use git status to check which files we can choice to put on new repository
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+The first one is a local manage and second one is a repository manage by the git.
+The second one contains manage provided by the git
+
+
+==========
+Concept Map: init, add, staging area
+==========
+
+We’ve introduced a few new concepts since we last revisited our concept map.
+
+    git init
+    git add
+    git status
+    staging area
+    working directory
+
+Previous Version
+
+Remember our concept map from last lesson? Here’s what it looked like the last time we added a new concept.
+
+Concept Map from last time
+Where Do the New Concepts Go?
+
+Here’s the structure we’ve come up with for how to add these new concepts in to the map. Which concept belongs where?
+
+Concept Map with blanks
+
+In the following quiz, write in the concept that you think belongs in each new empty node.
+
